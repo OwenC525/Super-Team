@@ -1,19 +1,8 @@
 const teamMembers = [
     {
-      name: 'Lionel Messi',
-      img: 'images/messi.jpg',
-      age: 36,
-      activelyPlaying: true,
-      position: 'Forward',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
-      strengths: 'Ball control',
-      weaknesses: 'Heading Ability',
-      biography:
-        'Lionel Messi is considered one of the greatest football players of all time...'
-    },
-    {
       name: 'Lebron James',
-      position: 'Defender',
+      img: 'images/lebron.png',
+      sport: 'Basketball',
       skills: ['Dribbling', 'Shooting', 'Passing'],
       strengths: 'Ball control',
       weaknesses: 'Heading Ability',
@@ -21,8 +10,9 @@ const teamMembers = [
         'Lionel Messi is considered one of the greatest football players of all time...'
     },
     {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Bronny James',
+        img: 'images/bronnyjames.png',
+        sport: 'Basketball',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -30,8 +20,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Bryce James',
+        img: 'images/brycejames.jpeg',
+        sport: 'Basketball',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -39,8 +30,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Lionel Messi',
+        img: 'images/messi.jpg',
+        sport: 'Soccer',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -48,8 +40,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Cristiano Ronaldo',
+        img: 'images/ronaldo.webp',
+        sport: 'Soccer',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -57,8 +50,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Neymar',
+        img: 'images/neymar.webp',
+        sport: 'Soccer',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -66,8 +60,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Alex Pereira',
+        img: 'images/pereira.png',
+        sport: 'MMA',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -75,8 +70,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Israel Adesanya',
+        img: 'images/izzy.png',
+        sport: 'MMA',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -84,8 +80,39 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'Lebron James',
-        position: 'Defender',
+        name: 'Sean Strickland',
+        img: 'images/strickland.png',
+        sport: 'MMA',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control',
+        weaknesses: 'Heading Ability',
+        biography:
+          'Lionel Messi is considered one of the greatest football players of all time...'
+      },
+      {
+        name: 'x',
+        img: 'images/',
+        sport: 'Football',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control',
+        weaknesses: 'Heading Ability',
+        biography:
+          'Lionel Messi is considered one of the greatest football players of all time...'
+      },
+      {
+        name: 'x',
+        img: 'images/',
+        sport: 'Football',
+        skills: ['Dribbling', 'Shooting', 'Passing'],
+        strengths: 'Ball control',
+        weaknesses: 'Heading Ability',
+        biography:
+          'Lionel Messi is considered one of the greatest football players of all time...'
+      },
+      {
+        name: 'x',
+        img: 'images/',
+        sport: 'Football',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -101,21 +128,21 @@ const teamMembers = [
       const card = document.createElement('div')
       card.classList.add('col-md-4')
   
-      //styling card based on position:
+      //styling card based on sport:
       let backgroundColor
   
-      switch (member.position.toLowerCase()) {
-        case 'forward':
-          backgroundColor = '#ffc107' // Yellow for forwards
+      switch (member.sport.toLowerCase()) {
+        case 'soccer':
+          backgroundColor = 'blue' // Yellow for forwards
           break
-        case 'midfielder':
-          backgroundColor = '#28a745' // Green for midfielders
+        case 'basketball':
+          backgroundColor = 'red' // Green for midfielders
           break
-        case 'defender':
-          backgroundColor = '#007bff' // Blue for defenders
+        case 'mma':
+          backgroundColor = 'black' // Blue for defenders
           break
-        case 'goalkeeper':
-          backgroundColor = '#dc3545' // Red for goalkeepers
+        case 'football':
+          backgroundColor = 'green' // Red for goalkeepers
           break
         default:
           backgroundColor = '#6c757d' // Gray for other positions
@@ -127,11 +154,11 @@ const teamMembers = [
         .map(skill => `<li> ${skill} </li>`).join('')
   
       card.innerHTML = `
-            <div class = "card">
+            <div class = "card h-100">
                 <div class = "card-header"> ${member.name}</div>
                   <div class = "card-body">
                     <img style="width: 200px" src=${member.img}>
-                    <p><strong>Position:</strong> ${member.position}</p>
+                    <p><strong>Sport:</strong> ${member.sport}</p>
                     <p><strong>Skills:</strong> 
                         <ul>
                             ${skillsList}
