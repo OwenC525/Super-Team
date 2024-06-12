@@ -3,31 +3,31 @@ const teamMembers = [
       name: 'Lebron James',
       img: 'images/lebron.png',
       sport: 'Basketball',
-      skills: ['Dribbling', 'Shooting', 'Passing'],
-      strengths: 'Ball control',
-      weaknesses: 'Heading Ability',
+      skills: ['Spped', 'Agility', 'Shooting'],
+      strengths: 'Work Ethic',
+      weaknesses: 'Shooting',
       biography:
-        'Lionel Messi is considered one of the greatest football players of all time...'
+        'Akron, Ohio, U.S. Individually, James is the all-time leading scorer in NBA history and ranks fourth in career assists, has won four Most Valuable Player (MVP) Awards, four Finals MVP Awards, three All-Star Game MVP Awards, and was named the inaugural NBA Cup MVP.'
     },
     {
         name: 'Bronny James',
         img: 'images/bronnyjames.png',
         sport: 'Basketball',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Athleticism', 'Shooting', 'Dribbling'],
+        strengths: 'Defensive Ability',
+        weaknesses: 'Shooting Ability',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          "Bronny James played college basketball for the USC Trojans. A consensus four-star recruit, James was named a McDonald's All-American as a senior in high school in 2023. He is the eldest child of professional basketball player LeBron James."
       },
       {
         name: 'Bryce James',
         img: 'images/brycejames.jpeg',
         sport: 'Basketball',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Shooting', 'Guarding', 'Dribbling'],
+        strengths: 'Shooting Ability',
+        weaknesses: 'Passing',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Bryce James is the second child of National Basketball Association (NBA) player LeBron James and the younger brother of college basketball player Bronny James. James primarily plays the shooting guard position. As of March 2024 he is 6 feet 6 inches (1.98 m) tall and weighs 180 pounds (82 kg). Cleveland, Ohio, U.S.'
       },
       {
         name: 'Lionel Messi',
@@ -37,87 +37,87 @@ const teamMembers = [
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          "Born in Rosario, Argentina, in 1987, Lionel Messi is widely regarded as one of the greatest football players of all time, and his illustrious career proves why. The Argentinean footballer, who holds a record eight Ballon d'Or awards, has displayed his talent early on and has always been destined for greatness."
       },
       {
         name: 'Cristiano Ronaldo',
         img: 'images/ronaldo.webp',
         sport: 'Soccer',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Dribbling', 'Spped', 'Shooting'],
+        strengths: 'Chop',
+        weaknesses: 'Defensive Ability',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          "Cristiano Ronaldo (born February 5, 1985, Funchal, Madeira, Portugal) is a Portuguese football (soccer) forward who is one of the greatest players of his generation. The winner of five Ballon d'Or awards, he is among the sport's top goal scorers."
       },
       {
         name: 'Neymar',
         img: 'images/neymar.webp',
         sport: 'Soccer',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
+        skills: ['Dribbling', 'Passing', 'Shooting'],
         strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        weaknesses: 'Physical',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Neymar, was born on February 5, 1992, in Mogi das Cruzes, a city near São Paulo. He grew up in a small house in a working-class neighborhood with his father, mother, and younger sister, Rafaella. Neymar started playing football after drawing inspiration from his father who was a professional footballer himself.'
       },
       {
         name: 'Alex Pereira',
         img: 'images/pereira.png',
         sport: 'MMA',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Striking', 'Speed', 'Agility'],
+        strengths: 'Powerful Striking Ability',
+        weaknesses: 'Grappling',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Alex Sandro Silva Pereira (born 7 July 1987) is a Brazilian professional mixed martial artist and former kickboxer. He currently competes in the Light Heavyweight division in the Ultimate Fighting Championship (UFC), where he is the current UFC Light Heavyweight Champion and a former UFC Middleweight Champion.'
       },
       {
         name: 'Israel Adesanya',
         img: 'images/izzy.png',
         sport: 'MMA',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Striking', 'Agility', 'Reach'],
+        strengths: 'Counter Striking',
+        weaknesses: 'Defense',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Adesanya was born in Lagos, Nigeria, the eldest of five children. His father, Oluwafemi, is an accountant and his mother, Taiwo, is a nurse. Adesanya attended Chrisland School, Opebi, and enrolled in its Taekwondo after-school club until he was removed by his mother due to an injury.'
       },
       {
         name: 'Sean Strickland',
         img: 'images/strickland.png',
         sport: 'MMA',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Striking', 'Resilience', 'Defense'],
+        strengths: 'Technical Skills',
+        weaknesses: 'Grappling',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Sean Strickland (born February 27, 1991) is an American professional mixed martial artist. He currently competes in the Middleweight division of Ultimate Fighting Championship (UFC), where he is the former UFC Middleweight Champion.'
       },
       {
         name: 'Daniel Cormier',
         img: 'images/danielcormier.png',
         sport: 'MMA',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Grappling', 'Strength', 'Wrestling'],
+        strengths: 'Offensiveness',
+        weaknesses: 'Striking',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Daniel Cormier, a relatively short Heavyweight, has met success against bigger opponents in freestyle wrestling and later in Mixed Martial Arts. Cormier was raised in Lafayette, Louisiana where he was raised by his mother and stepfather. Cormier became a pro wrestling fan by age 10, which he watched on TV often.'
       },
       {
         name: 'Max Holloway',
         img: 'images/maxholloway.png',
         sport: 'MMA',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Striking', 'Speed', 'Agility'],
+        strengths: 'Distance Managing',
+        weaknesses: 'Defense',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'He is the former UFC featherweight champion and holds a professional MMA record of 25 wins and 7 losses. He is currently ranked 14th in the UFC pound-for-pound rankings and No. 1 in the UFC featherweight rankings. Holloway is also a recipient of a brown belt in Brazilian Jiu-Jitsu.'
       },
       {
         name: 'Jon Jones',
         img: 'images/jonjones.png',
         sport: 'MMA',
-        skills: ['Dribbling', 'Shooting', 'Passing'],
-        strengths: 'Ball control',
-        weaknesses: 'Heading Ability',
+        skills: ['Striking', 'Grappling', 'Distance Managing'],
+        strengths: 'Physical Strength',
+        weaknesses: 'Defense',
         biography:
-          'Lionel Messi is considered one of the greatest football players of all time...'
+          'Jon Jones was born on July 19, 1987 in Rochester, New York, USA. He is an actor, known for UFC 285 Embedded: Vlog Series (2023), New York Mixed Martial Arts (2011) and UFC 200 Greatest Fighters of All Time (2016). He is married to Jessie Moses. They have three children.'
       },
   ]
   
@@ -152,6 +152,9 @@ const teamMembers = [
       //Create a list of Skills with <li> tags
       const skillsList = member.skills
         .map(skill => `<li> ${skill} </li>`).join('')
+
+       // Add padding
+       card.style.padding = '15px 10px';
   
       card.innerHTML = `
             <div class = "card h-100">
