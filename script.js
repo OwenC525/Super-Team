@@ -90,9 +90,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'x',
-        img: 'images/',
-        sport: 'Football',
+        name: 'Daniel Cormier',
+        img: 'images/danielcormier.png',
+        sport: 'MMA',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -100,9 +100,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'x',
-        img: 'images/',
-        sport: 'Football',
+        name: 'Max Holloway',
+        img: 'images/maxholloway.png',
+        sport: 'MMA',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
@@ -110,9 +110,9 @@ const teamMembers = [
           'Lionel Messi is considered one of the greatest football players of all time...'
       },
       {
-        name: 'x',
-        img: 'images/',
-        sport: 'Football',
+        name: 'Jon Jones',
+        img: 'images/jonjones.png',
+        sport: 'MMA',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball control',
         weaknesses: 'Heading Ability',
